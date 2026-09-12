@@ -1,0 +1,9 @@
+fastapi                     # The web framework — handles routing, requests
+uvicorn                     # The server that runs FastAPI
+sqlalchemy                  # ORM — lets us write Python instead of raw SQL
+psycopg2-binary             # PostgreSQL driver (connects Python to PostgreSQL)
+python-jose[cryptography]   # For creating and decoding JWT tokens
+passlib[bcrypt]             # For hashing passwords securely
+python-dotenv               # To load .env variables (SECRET_KEY, DB_URL, etc.)
+python-multipart            # Needed for form data (login form)
+pydantic[email]             # Validates email format in request body
