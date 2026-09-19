@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.env
+
+# Database (contains your real data!)
+*.db
+
+# Node
+node_modules/
+
+# Build
+dist/
